@@ -18,7 +18,7 @@ namespace Tunnikontroll
             decimal summa = decimal.Parse(input);
 
             Console.WriteLine();
-            Console.WriteLine("Tavaklient");
+            Console.WriteLine("Tavakliendi summa");
 
             if ((summa >= 50) && (summa < 250))
             {
@@ -45,7 +45,7 @@ namespace Tunnikontroll
             }
 
             Console.WriteLine();
-            Console.WriteLine("Püsiklient");
+            Console.WriteLine("Püsikliendi summa");
 
             if ((summa < 250) && (summa >= 50))
             {
